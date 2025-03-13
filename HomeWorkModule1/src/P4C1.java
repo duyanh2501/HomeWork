@@ -58,11 +58,10 @@ public class P4C1 {
                 demPtXoa++;
             }
         }
-            int [] mangMoi1 = new int[mang.length - demPtXoa];
-
-            for(int i = 0 ; i < mang.length ; i++) {
+            int [] mangMoi1 = new int[mangMoi.length - demPtXoa];
+            j = 0;
+            for(int i = 0   ; i < mangMoi.length ; i++) {
                 if(mangMoi[i] != ptXoa ) {
-                     j = 0 ;
                     mangMoi1[j] = mangMoi[i];
                     j++;
                 }
